@@ -1,7 +1,7 @@
 {
-  "name": "react-native-vision-camera-text-recognition",
-  "version": "3.1.1",
-  "description": "A plugin to Scanning Text,Translate using ML Kit Text Recognition and ML Kit Translation. With High Performance and many features.",
+  "name": "@solutionsmedias360/react-native-vision-camera-text-recognition",
+  "version": "1.0.4",
+  "description": "A fork of a plugin to Scanning Text,Translate using ML Kit Text Recognition and ML Kit Translation. With High Performance and many features.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
@@ -50,14 +50,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gev2002/react-native-vision-camera-text-recognition.git"
+    "url": "git+https://github.com/sm360/react-native-vision-camera-text-recognition.git"
   },
-  "author": "gev2002 <gevorg2002@inbox.ru> (https://github.com/gev2002)",
+  "author": "Solutions Médias 360",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gev2002/react-native-vision-camera-text-recognition/issues"
-  },
-  "homepage": "https://github.com/gev2002/react-native-vision-camera-text-recognition#readme",
+  "homepage": "https://github.com/sm360/react-native-vision-camera-text-recognition",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
