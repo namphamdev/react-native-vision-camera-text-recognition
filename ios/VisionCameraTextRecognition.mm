@@ -36,8 +36,17 @@
 }
 @end
 
+@interface VisionCameraHearthRate (FrameProcessorPluginLoader)
+@end
 
-
+@implementation VisionCameraHearthRate (FrameProcessorPluginLoader)
++ (void) load {
+  [FrameProcessorPluginRegistry addFrameProcessorPlugin:@"getHeartRate"
+    withInitializer:^FrameProcessorPlugin*(VisionCameraProxyHolder* proxy, NSDictionary* options) {
+    return [[VisionCameraHearthRate alloc] initWithProxy:proxy withOptions:options];
+  }];
+}
+@end
 
 
 #import <React/RCTBridgeModule.h>

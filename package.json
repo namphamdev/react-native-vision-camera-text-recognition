@@ -1,6 +1,6 @@
 {
-  "name": "@solutionsmedias360/react-native-vision-camera-text-recognition",
-  "version": "1.0.4",
+  "name": "@namphamdev/react-native-vision-camera-text-recognition",
+  "version": "1.0.0",
   "description": "A fork of a plugin to Scanning Text,Translate using ML Kit Text Recognition and ML Kit Translation. With High Performance and many features.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
