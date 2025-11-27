@@ -15,6 +15,9 @@ class VisionCameraTextRecognitionPackage : ReactPackage {
             FrameProcessorPluginRegistry.addFrameProcessorPlugin("translate") { proxy, options ->
                 VisionCameraTranslatorPlugin(proxy, options)
             }
+            FrameProcessorPluginRegistry.addFrameProcessorPlugin("getHeartRate") { proxy, options ->
+                VisionCameraHeartRatePlugin(proxy, options)
+            }
         }
     }
 

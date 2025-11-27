@@ -103,3 +103,4 @@ example
 .pnp/
 .pnp.*
 
+/android-pulse
