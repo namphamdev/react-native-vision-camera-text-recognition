@@ -25,4 +25,9 @@ Pod::Spec.new do |s|
   s.dependency "GoogleMLKit/TextRecognitionKorean"
   s.dependency "GoogleMLKit/Translate"
 
+  # MLX and MLXEmbedders must be added via Swift Package Manager in the consuming app:
+  # - https://github.com/ml-explore/mlx-swift
+  # - https://github.com/ml-explore/mlx-swift-examples (MLXEmbedders)
+  # Add to Xcode: File > Add Package Dependencies
+
 end
